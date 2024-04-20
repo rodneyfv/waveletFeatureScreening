@@ -14,7 +14,7 @@ devtools::install_github("rodneyfv/waveletFeatureScreening")
 ## An example
 
 ```R
-#' set.seed(2024)
+set.seed(2024)
 sample_size = 100
 number_parameters = 500
 matrix_features = matrix(data = runif(sample_size * number_parameters),
