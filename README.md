@@ -30,6 +30,6 @@ library("waveletFeatureScreening")
 wws <- wavelet_screening(matrix_features, response_variable)
 # Indices of the 20 most relevant features
 wws$rank[1:20]
-# If indices 1 and 2 are among them, the true features were correctly identified
+# If indices 1 and 2 are among them, then the true features were correctly identified
 ```
 
