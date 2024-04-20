@@ -23,7 +23,9 @@ matrix_features = matrix(data = runif(sample_size * number_parameters),
 # The first two features are used to generate a response
 response_variable = sin(2*pi*matrix_features[,1]) +
                         3*(matrix_features[,2]^2) + 0.5*rnorm(sample_size)
+
 # Using the wavelet feature screening to rank the features
+library(waveletFeatureScreening)
 wws <- wavelet_screening(matrix_features, response_variable)
 # most relevant features
 wws$rank[1:20]
