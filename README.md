@@ -1,6 +1,7 @@
 # waveletFeatureScreening
-This package implements in R a feature screening method that uses wavelet regression. 
-The method is nonparametric and can be used to identify features with highly nonlinear relation with the response variable.
+
+This package implements a feature screening method that uses a nonparametric wavelet regression. 
+It can be used to identify features with a highly nonlinear relation with the response variable.
 For more details, see [Fonseca, Morettin, Pinheiro (2024, JCGS)](https://doi.org/10.1080/10618600.2024.2342984).
 
 ## Installation
