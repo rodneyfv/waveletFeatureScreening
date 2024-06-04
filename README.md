@@ -2,7 +2,7 @@
 
 This package implements a feature screening method that uses nonparametric wavelet regression. 
 It can be used to identify features with a highly nonlinear relation with the response variable.
-For more details, see <a href="https://www.tandfonline.com/doi/full/10.1080/10618600.2024.2342984" target="_blank">Fonseca, Morettin, Pinheiro (2024, JCGS)</a>.
+For more details, see the paper Wavelet Feature Screening of <a href="https://www.tandfonline.com/doi/full/10.1080/10618600.2024.2342984" target="_blank">Fonseca, Morettin, Pinheiro (2024, JCGS)</a>.
 
 ## Installation
 
